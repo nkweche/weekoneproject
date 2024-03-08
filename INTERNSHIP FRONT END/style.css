@@ -1,0 +1,50 @@
+ body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90vw;
+    margin: auto;
+    align-items: center;
+}
+.head{
+    display: inline-flex;
+}    
+.head li{
+    margin: 0px 10px;
+    list-style: none;
+}
+.head a{
+    text-decoration: none;
+}
+.left div{
+    display: inline-block;
+    margin-left: 10px;
+    margin-block: 10px;
+}
+.left div h2,
+.left div p{
+    margin: 0px;
+}
+.center{
+    max-width: 80vw;
+    margin: 25vh;
+    
+    
+}
+.btn{
+    padding: 9px 12px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-block: 40px;
+}
+.left img{
+    font-size: xxx-large;
+    background-color: aqua;
+    
+}
